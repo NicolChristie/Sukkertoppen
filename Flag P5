@@ -1,0 +1,102 @@
+function setup(){
+    createCanvas(400, 300);
+}
+
+function draw(){
+//   //Japan
+//     background(255);//create the white background
+//     fill(255,0,0); //prepare the fill for the circle
+//     circle(200, 150, 150) //draw the circle
+
+//     //France
+// background(255);//create the white background
+// fill(0,0,255); //prepare the fill for the first section
+// rect(0,0,(400/3),300); //create the rectangle that is a 3rd of the width of the flag
+// fill(255,0,0); //prepare the fill for the last section
+// rect((400/3*2),0,(400/3),300);//create the rectangle that is a 3rd of the width of the flag but at the end
+
+//     //Denmark
+//      background(255,255,255)//background color white
+//      fill(255,0,0);//color red
+//      square(0,0,130);
+//      fill(255,0,0);//color red
+//      rect(200,0,200,130);//rectangle
+//      fill(255,0,0,);//color red
+//      square(0,180,130);
+//      fill(255,0,0)
+//      rect(200,180,200,130)
+
+// //Indonesia
+
+// background(255);//create the white background   
+// fill(255,0,0); //prepare the fill for the top section
+// rect(0,0,400,150); // add the rectangle at the top of the flag
+
+// //benin
+// background(1, 143, 60);//create green background
+// fill(179,179,0) //prepare the yellow section
+// rect((400/3),0,270,150); //create the rectangle for the yellow section
+// fill(255,0,0) //prepare the red section
+// rect((400/3),,270,150); //create the rectangle for the red section
+
+// //kuwait
+// background(255);//create the white background  
+// fill(25,145,0); //prepare the colour of the green section
+// rect(0,0,400,100); //create the rectangle for the green section
+// fill(185,0,0);// prepare the colour for the red section
+// rect(0,200,400,100) //create the rectangle for the red section
+// fill(0,0,0) //prepare the colour for the black section
+// beginShape();
+// vertex(0,0);
+// vertex(0,300);
+// vertex(120,200);
+// vertex(120,100); //create the points for the black section
+// endShape(CLOSE);
+
+// //czechia
+// background(255);//create the white background  
+// fill(255,0,0); //prepare the red for the section
+// rect(0,150,400) //create the rectangle for the red section
+// fill(0,0,255) //prepare the blue for the section
+// triangle(0,0,200,150,0,300) //create the triangle for the blue section
+
+// //maldives
+// background(255,0,0);//create the red background 
+// fill(25,105,0); //prepare the green
+// rect(80,80,240,140); //create the green 
+// fill(255) //prepare the white for the moon
+// circle(200,150,100); //add a circle for the moon
+// fill(25,105,0); //make same green as green rectangle
+// circle(230,150,100);// make anoter circle slightly to the left of the white to make a cresent moon
+
+//Isreal
+background(255);//create the white background
+fill(1,56,183,255) //prepare the blue
+rect(0,10,400,50); //create the rectangle for the blue section
+rect(0,230,400,50); //create the rectangle for the blue section
+noFill(); //make the inside of the triangles transparent
+stroke(1,56,183,255); //determine the colour of the star
+strokeWeight(8); //determin the width of the lines
+triangle(210,210,150,110,270,110) //make the stroke triangles
+triangle(210,80,150,180,270,180) //add the second traingle
+
+
+// //south africa
+// background(255);//create the white background
+// fill(222,56,49,255) //prepare the red
+// rect(0,0,400,150) //add the red rectangle
+// fill(0,35,149,255) //prepare the blue
+// rect(0,150,400,150) //add the blue rectangle
+// fill(255) //prepare the white 
+// rect(0,120,400,60) //add the white bar
+// triangle((0),-60,210,150,0,360) //add the white triangle
+// fill(0,122,77,255) //prepare the green
+// rect(0,130,400,40) //add the green bar
+// triangle(0,-35,183,150,0,335), //add the green triangle
+// fill(253,182,16,255) //prepare the gold
+// triangle(0,15,150,150,0,285), //add the gold triangle
+// fill(0) //prepare the black
+// triangle(0,60,103,150,0,240), //add the black triangle
+ noStroke(); 
+}
+
