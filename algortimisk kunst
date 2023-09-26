@@ -1,0 +1,37 @@
+let circles = []; //create an empty list of circle
+let maxCircles = 100; //decide the maximum amount of circles
+
+function setup() {
+  //create the background,say that there is no border, and refer to the generate circle loop
+  createCanvas(600, 600);
+  noStroke(); 
+  generateCircles();
+}
+
+function generateCircles() {
+  
+  while (circles.length < maxCircles) { //activte when the maximum circle count has not been reached
+    let circle = generateRandomCircle(); //refer to code that returns the characteristics of the circle
+    let overlapping = false; 
+    for(let i = 0; i < circles.length; i++) { //everytime the loop runs increase the number by one until it hits the maxcircle 
+    let d = dist(circle.x, circle.y, circles[i].x, circles[i].y); //check how far the new circle is from another circle
+    if (d< 20){ //if it is smaller than the given number that means it overlaps and stops the code
+        overlapping = true;
+        return;
+    }
+  }
+  if (!overlapping){ //if it doesnt overlap create a circle
+    circles.push(circle); //adds circle to the array
+    fill(circle.fill);
+    ellipse(circle.x, circle.y, circle.radius);
+  }
+  }
+}
+
+function generateRandomCircle() { //this makes the random circle size, place and colour
+  let x = random(width);
+  let y = random(height);
+  let radius = random(20,200);
+  let fill = color (random(255), random(255), random(255))
+  return {x,y,radius, fill};
+}
