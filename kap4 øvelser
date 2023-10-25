@@ -57,7 +57,38 @@
           //   }
           // }
                             //width and height are variables that use the background code in the setup to deterine its number, width is the amount of pixels wide the screen is and height is the amount of pixels tall the background is
-            // opg 10
+            
+        //opg 9
+//let x = 100; //creates a variable called 'X' and sets the inital value at 200
+//let y = 100; //creates a variable called 'Y' and sets the inital value at 100
+// function setup() {
+//     createCanvas(512, 512); //creates a background canvas with the size of 400x400
+//     fill(255,0,0) //determines that all elements after this will be filled with red
+//}
+
+// function draw() {
+//  if (keyIsDown(LEFT_ARROW)) { //KeyIsDown is an inbuilt argument that checks if a certain key is down on the keyboard,in this instance it is the left arrow key
+//     x -= 5; //reduces the x variable by 5
+//   }
+
+//   if (keyIsDown(RIGHT_ARROW)) { //this checks if the right arrow key is down 
+//     x += 5;//increases the x variable by 5
+//   }
+
+//   if (keyIsDown(UP_ARROW)) { //this checks if the right arrow is down
+//     y -= 5; //decreases the y variable by 5
+//   }
+
+//   if (keyIsDown(DOWN_ARROW)) { //checks if the down arrow on the keybaord is pressed
+//     y += 5; //increases the y variable by 5
+//   }
+//   clear() //this clears the background of any old elements, this way we can make the illusion that the circle is moving, even thought ever frameit is creating a new circle
+//   //on tge background, with clear() clearing the old circles behind it
+//   circle(x, y,50) //every frame creating a circle at the x and y coordinates of the respective variables, it has a diametere of 50
+// }
+
+  
+        // opg 10
 // let rectX = 20
 // let rectY = 10
 // let circX = 200
