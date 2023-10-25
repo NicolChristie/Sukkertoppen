@@ -57,7 +57,26 @@
           //   }
           // }
                             //width and height are variables that use the background code in the setup to deterine its number, width is the amount of pixels wide the screen is and height is the amount of pixels tall the background is
-            
+        //opg 8
+// function setup(){
+// createCanvas(400,400)
+// }
+// function draw(){
+//   background(220);
+//   strokeWeight(20)
+
+//   if(keyIsDown(97)) {
+//     console.log("a")
+//     line (20,300,200,10)
+//     line(200,10,380,300)
+//     line(83,200,317,200)
+//   }
+//   if(keyIsDown(118)){
+//     line(50,50,200,370)
+//     line(200,370,350,50)
+//   } 
+// }
+
         //opg 9
 //let x = 100; //creates a variable called 'X' and sets the inital value at 200
 //let y = 100; //creates a variable called 'Y' and sets the inital value at 100
