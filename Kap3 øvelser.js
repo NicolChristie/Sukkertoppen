@@ -64,6 +64,20 @@ function setup() {
         //         rect(mouseX,mouseY ,10,20); 
         //     }
         // }
+            //opg 9
+    //x=12 //number
+    // y=12.5 //number
+    // s="Hej" //string
+    // t="12.5" //string
+    // b=true //boolean
+    // console.log(typeof(x)) //number
+    // console.log(typeof(y)) //number
+    // console.log(typeof(s)) //string
+    // console.log(typeof(t)) //string
+    // console.log(typeof(b)) //boolean
+    // console.log(typeof(x+y)) //number
+    // console.log(typeof(s+t))  //string
+    // console.log(typeof(x+t)) //string
     
             //opgaver 10
          //line(mouseX, mouseY, pmouseX, pmouseY);
