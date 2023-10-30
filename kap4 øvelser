@@ -37,11 +37,10 @@
         //console.log(2 === 2 || 2!=3 ); =true
         //console.log(2 === 2 || 2!='2' && (true || false)); =true
 
-        //opg 4
+               //opg 4 a)
          // function setup() { 
           //   createCanvas(600, 400);
           // } 
-          
           // function draw() { 
           //   background(220); //makes the background gray
           //   fill(255,0,0); //readys the next shapes to be red
@@ -57,6 +56,78 @@
           //   }
           // }
                             //width and height are variables that use the background code in the setup to deterine its number, width is the amount of pixels wide the screen is and height is the amount of pixels tall the background is
+//            //opg 4b) 
+//            let x;
+// let xspeed = 3; //sets the speed of the ball
+
+// function setup() { 
+//   createCanvas(400, 400); //makes a square with the 
+//   x = width / 2; //start the circle at the halfway point on the canvas
+// } 
+
+// function draw() { 
+//   background(220); //make the background a grayish colour
+//   if (x > width - 25 || x < 0 + 25) { //if the position of the ball is larger than the width of the bakcground minus 25
+//         //or if the xpos of the circle is smaller than 0 plus 25 then do the next function
+//     xspeed *= -1; //multiply the speed by -1 
+//     //so if it was positive before make it negative, and if it was negative make it positive
+//   }
+  
+//   //Move
+//   x += xspeed; //every frame increase or decrease x by xspeed
+//   circle(x, height/2, 50); //make the x position x and half way up the screen, along with a diametre of 50
+// }
+        //opg 5
+        // let speed = 3
+        // let y = 0
+        // function setup(){
+        //         createCanvas(400,500)
+        //         y = random(20,height)
+        // }
+        // function draw(){
+        //         background(200)
+        //         circle (width/2,y,20)
+        //         y += speed
+        //         if(y > height-10 || y < 0+10){
+        //                 speed *= -1
+        //         }
+        // }
+        // //opg6
+        // function setup() { 
+        //         createCanvas(120, 120); //create a small canvas
+        //         strokeWeight(30); //set the size of all lines to 30 in width
+        //         } 
+        //         function draw() { 
+        //          background(204); //make the background colour rgb(204,204,204)
+        //          stroke(102); //make the colour of the next line rgb(102,102,102)
+        //          line(40, 0, 70, height); //create a line that goes from 40;0 to 70;the max height of the canvas
+        //          if (mouseIsPressed) { //mouseIsPressed is a boolean that is inbuilt into the code, it checks if a mouse button is being pressed
+        //           if (mouseButton == LEFT) {  //mouseButton is an inbuilt event that checks if certain parametres have been met, 
+        //                 //there is certain things it can check,in this case, if the left mouse button is activated then itll do the function
+        //            stroke(255); //if the mouse is pressed and it is the left one then make the next line white 
+        //           } 
+        //           else { 
+        //            stroke(0);  //but if the mouse is pressed but it is not the left on then it should be black
+        //           } 
+        //           line(0, 70, width, 50); //if the mouse button is rpessed make a line at these coordinates, that goes to the end oif the canvas
+        //           } 
+        //         } 
+
+        //op7
+//         function setup() 
+// { 
+//  createCanvas(120, 120); //makes a background canvas that is 120x120
+// } 
+// function draw() 
+// { 
+//  background(204); //makes the colour of the background rgn(204,204,204)
+//  if (keyIsPressed) {  //keyIsPressed is an inbuilt event that looks for if a key on the keyboard is pressed
+//   if ((key == 'h') || (key == 'H')) { line(30, 60, 90, 60); } //here if a key is pressed and it a lowercase h or a uppercase h then it makes a line
+//   if ((key == 'n') || (key == 'N')) { line(30, 20, 90, 100); } //or if the lowecase n or the uppercase n is pressed then it makes a different line
+//  } 
+// line(30, 20, 30, 100); //when this code is running it creates this line 
+// line(90, 20, 90, 100); //and when this code is running it creates this line
+// } 
         //opg 8
 // function setup(){
 // createCanvas(400,400)
