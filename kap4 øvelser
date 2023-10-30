@@ -1,4 +1,4 @@
-//opg1
+        //opg1
 // =
 // console.log(2 == 2); = true
 // console.log(2 == '2');  =true
@@ -12,7 +12,7 @@
 // console.log(2 !== '2'); =true
 // console.log(2 !== 2);=false
 
-//opg 2
+        //opg 2
 // function setup() {
 //     createCanvas(400, 400);
 //     frameRate(5);
@@ -29,35 +29,36 @@
 //         }
 
         //opg3
-        // console.log(2 == 2 && 2 == '2'); =true
-        //console.log(2 == 2 && 2 == '2' && 2 === '2'); =false
-        // console.log(2 == 2 && 2 == '2' || 2!=2); =true
-        //console.log('hello' != 'Hello' && 'hello' !== 'Hello'); =true
-        // console.log('hello' != 'Hello' || 'hello' !== 'hello' && 'hello' !== 'heLLo'); =true
-        //console.log(2 === 2 || 2!=3 ); =true
-        //console.log(2 === 2 || 2!='2' && (true || false)); =true
+// console.log(2 == 2 && 2 == '2'); =true
+//console.log(2 == 2 && 2 == '2' && 2 === '2'); =false
+// console.log(2 == 2 && 2 == '2' || 2!=2); =true
+//console.log('hello' != 'Hello' && 'hello' !== 'Hello'); =true
+// console.log('hello' != 'Hello' || 'hello' !== 'hello' && 'hello' !== 'heLLo'); =true
+//console.log(2 === 2 || 2!=3 ); =true
+//console.log(2 === 2 || 2!='2' && (true || false)); =true
 
-               //opg 4 a)
-         // function setup() { 
-          //   createCanvas(600, 400);
-          // } 
-          // function draw() { 
-          //   background(220); //makes the background gray
-          //   fill(255,0,0); //readys the next shapes to be red
-          //   noStroke(); //determines that the next shapes will not have an outline
-          //   if (mouseX < width/3) { //if the mouses x coordinates is lower that a third of the screen then do the if statement (so when the mouse is on the left third of the screen)
-          //     rect(0, 0, width/3, height); //make a rectangle, starting from the top left corner, it is a third of the screen wide and goes all the way down to the bottom
-          //   }
-          //   else if (mouseX <= width*2/3) { //if the mouse x coordinates is s,aller than the 2/3rd mark on the x coordinate, but also larger than the 1/3rd mark, do this fucntion
-          //     rect(width/3, 0, width/3, height); //make a rectangle that starts 1/3rd of the way across the screen, is a third of the screen wide and also goes all the way down the screen
-          //   }
-          //   else { //if it does not fulfil the last to equations then do this function (is not smaller than 1/3rd of the width of the screen, nor smaller than 2/3rds)
-          //     rect(width*2/3, 0, width/3, height); //male a rectangle that starts 2/3rd of the way across the screen, is 1/3rd of the screen wide and goes all the way down
-          //   }
-          // }
-                            //width and height are variables that use the background code in the setup to deterine its number, width is the amount of pixels wide the screen is and height is the amount of pixels tall the background is
-//            //opg 4b) 
-//            let x;
+       //opg 4 a)
+ // function setup() { 
+  //   createCanvas(600, 400);
+  // } 
+  // function draw() { 
+  //   background(220); //makes the background gray
+  //   fill(255,0,0); //readys the next shapes to be red
+  //   noStroke(); //determines that the next shapes will not have an outline
+  //   if (mouseX < width/3) { //if the mouses x coordinates is lower that a third of the screen then do the if statement (so when the mouse is on the left third of the screen)
+  //     rect(0, 0, width/3, height); //make a rectangle, starting from the top left corner, it is a third of the screen wide and goes all the way down to the bottom
+  //   }
+  //   else if (mouseX <= width*2/3) { //if the mouse x coordinates is s,aller than the 2/3rd mark on the x coordinate, but also larger than the 1/3rd mark, do this fucntion
+  //     rect(width/3, 0, width/3, height); //make a rectangle that starts 1/3rd of the way across the screen, is a third of the screen wide and also goes all the way down the screen
+  //   }
+  //   else { //if it does not fulfil the last to equations then do this function (is not smaller than 1/3rd of the width of the screen, nor smaller than 2/3rds)
+  //     rect(width*2/3, 0, width/3, height); //male a rectangle that starts 2/3rd of the way across the screen, is 1/3rd of the screen wide and goes all the way down
+  //   }
+  // }
+  //width and height are variables that use the background code in the setup to deterine its number, width is the amount of pixels wide the screen is and height is the amount of pixels tall the background is
+
+      //opg 4b) 
+//  let x;
 // let xspeed = 3; //sets the speed of the ball
 
 // function setup() { 
@@ -77,41 +78,43 @@
 //   x += xspeed; //every frame increase or decrease x by xspeed
 //   circle(x, height/2, 50); //make the x position x and half way up the screen, along with a diametre of 50
 // }
+
         //opg 5
-        // let speed = 3
-        // let y = 0
-        // function setup(){
-        //         createCanvas(400,500)
-        //         y = random(20,height)
-        // }
-        // function draw(){
-        //         background(200)
-        //         circle (width/2,y,20)
-        //         y += speed
-        //         if(y > height-10 || y < 0+10){
-        //                 speed *= -1
-        //         }
-        // }
-        // //opg6
-        // function setup() { 
-        //         createCanvas(120, 120); //create a small canvas
-        //         strokeWeight(30); //set the size of all lines to 30 in width
-        //         } 
-        //         function draw() { 
-        //          background(204); //make the background colour rgb(204,204,204)
-        //          stroke(102); //make the colour of the next line rgb(102,102,102)
-        //          line(40, 0, 70, height); //create a line that goes from 40;0 to 70;the max height of the canvas
-        //          if (mouseIsPressed) { //mouseIsPressed is a boolean that is inbuilt into the code, it checks if a mouse button is being pressed
-        //           if (mouseButton == LEFT) {  //mouseButton is an inbuilt event that checks if certain parametres have been met, 
-        //                 //there is certain things it can check,in this case, if the left mouse button is activated then itll do the function
-        //            stroke(255); //if the mouse is pressed and it is the left one then make the next line white 
-        //           } 
-        //           else { 
-        //            stroke(0);  //but if the mouse is pressed but it is not the left on then it should be black
-        //           } 
-        //           line(0, 70, width, 50); //if the mouse button is rpessed make a line at these coordinates, that goes to the end oif the canvas
-        //           } 
-        //         } 
+// let speed = 3
+// let y = 0
+// function setup(){
+//         createCanvas(400,500)
+//         y = random(20,height)
+// }
+// function draw(){
+//         background(200)
+//         circle (width/2,y,20)
+//         y += speed
+//         if(y > height-10 || y < 0+10){
+//                 speed *= -1
+//         }
+// }
+
+        //opg6
+// function setup() { 
+//         createCanvas(120, 120); //create a small canvas
+//         strokeWeight(30); //set the size of all lines to 30 in width
+//         } 
+//         function draw() { 
+//          background(204); //make the background colour rgb(204,204,204)
+//          stroke(102); //make the colour of the next line rgb(102,102,102)
+//          line(40, 0, 70, height); //create a line that goes from 40;0 to 70;the max height of the canvas
+//          if (mouseIsPressed) { //mouseIsPressed is a boolean that is inbuilt into the code, it checks if a mouse button is being pressed
+//           if (mouseButton == LEFT) {  //mouseButton is an inbuilt event that checks if certain parametres have been met, 
+//                 //there is certain things it can check,in this case, if the left mouse button is activated then itll do the function
+//            stroke(255); //if the mouse is pressed and it is the left one then make the next line white 
+//           } 
+//           else { 
+//            stroke(0);  //but if the mouse is pressed but it is not the left on then it should be black
+//           } 
+//           line(0, 70, width, 50); //if the mouse button is rpessed make a line at these coordinates, that goes to the end oif the canvas
+//           } 
+//         } 
 
         //op7
 //         function setup() 
@@ -128,6 +131,7 @@
 // line(30, 20, 30, 100); //when this code is running it creates this line 
 // line(90, 20, 90, 100); //and when this code is running it creates this line
 // } 
+
         //opg 8
 // function setup(){
 // createCanvas(400,400)
@@ -178,7 +182,7 @@
 // }
 
   
-        // opg 10
+        // opg 10,11,12
 // let rectX = 20
 // let rectY = 10
 // let circX = 200
@@ -210,12 +214,11 @@
 //             circle(che2X, che2Y, 20)
 //             rect(rectX,rectY,20,40);
 //             moving();
-//             //opg12
 //             cheeseCollection();
 //             borderControl();
 //             textController();
 //             }
-//     function moving(){
+//     function moving(){ //opg11
 //       if (keyIsDown(LEFT_ARROW)) {
 //         circX -= 5;
 //         console.log("hit")
@@ -250,7 +253,7 @@
 //             rectY += 5;
 //     }
 //     }
-//     function cheeseCollection(){
+//     function cheeseCollection(){ //opg12
 //       if(abs(che1X - rectX) <= 10 && abs(che1Y - rectY) <= 40){
 //         che1X = random(20,380)
 //         che1Y = random(20,380)
@@ -289,11 +292,12 @@
 //         rectY = rectY - 20
 //       }
 //     }
-//     function textController(){
+//     function textController(){ //opg12
 //       fill(0);
 //       text("Circle Points:" + PoiCirc,20,10);
 //       text("Rectangle Points:" + PoiRec,280,10);
 //     }
+
 //         //opg13
 // let cookieX = 0;
 // let cookieY = 0;
